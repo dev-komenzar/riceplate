@@ -1,2 +1,3 @@
 .{ts,svelte}: bun run lintrunlint
-.pcss: stylelint --fix
+.pcss: bun run stylelint --fix
+.json: bun run eslint --fix
