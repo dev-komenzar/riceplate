@@ -1,10 +1,6 @@
 # Komenzar's Svelte Boilerplate
 
-<div align='center'>
- <a href="./LICENSE">
-    <img alt="LICENSE" src="https://img.shields.io/badge/license-MIT-blue.svg?maxAge=43200">
-  </a>
-</div>
+![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?maxAge=43200)
 
 Rice-plate is my frontend app boilerplate for developping with SvelteKit.
 
