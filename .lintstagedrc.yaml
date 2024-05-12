@@ -1,1 +1,2 @@
-'*': bun run lintrunlint
+.{ts,svelte}: bun run lintrunlint
+.pcss: stylelint --fix
