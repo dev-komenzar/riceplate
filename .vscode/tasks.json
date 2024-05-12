@@ -1,0 +1,56 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "bun",
+			"args": [
+				"--bun",
+				"run",
+				"dev"
+			],
+			"label": "bun: dev",
+			"detail": "bun run dev using bun runtime",
+			"group": "test",
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		},
+		{
+			"type": "shell",
+			"command": "bun",
+			"args": [
+				"run",
+				"build"
+			],
+			"label": "bun: build",
+			"detail": "bun run build using bun runtime",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"command": "bun",
+			"args": [
+				"--bun",
+				"run",
+				"lint"
+			],
+			"label": "bun: lint",
+			"detail": "bun run lint using bun runtime",
+			"group": "test",
+			"problemMatcher": [
+				"$eslint-compact",
+				"$eslint-stylish"
+			]
+		}
+	]
+}
