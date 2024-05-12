@@ -1,6 +1,7 @@
 import { HttpResponse, http } from 'msw'
 
 // Define mock handlers below
+// Used in `./browsers` and `./servers`
 // Read [this](https://mswjs.io/docs/network-behavior/rest)
 
 // For example post to `login` and return success
