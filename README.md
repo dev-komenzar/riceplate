@@ -21,6 +21,11 @@ Read [this installation](https://bun.sh/docs/installation) to install Bun. Clone
 
 **DON'T** use npm, yarn, pnpm or other package managers!!!
 
+## VS Code
+
+*Search Bar > Show and Run Command (Shift + Command + P) > Tasks: Run task*
+Tasks are already configured to use Bun.
+
 ## Mock
 
 Use MSW for mock testing. Write handlers to `src/mocks/handlers.ts`. MSW is loaded only when development mode. See `src/hooks.client.ts` and `src/hooks.server.ts`
