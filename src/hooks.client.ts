@@ -4,7 +4,7 @@
 import { dev } from '$app/environment'
 
 if (dev) {
-	const { worker } = await import('./mocks/browsers.js')
+	const { worker } = await import('./mocks/browser.js')
 
 	await worker.start({
 		onUnhandledRequest: 'warn',
