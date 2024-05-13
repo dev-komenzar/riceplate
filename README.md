@@ -12,6 +12,7 @@ Rice-plate is my frontend app boilerplate for developping with SvelteKit.
 - CSS Lint: StyleLint
   - ❌ No Prettier
 - Husky + staged
+- Mocking library: MSW
 - Avoid mistakenly running npm, yarn, and pnpm commands
 
 ## Installation
