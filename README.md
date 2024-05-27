@@ -28,4 +28,6 @@ Tasks are already configured to use Bun.
 
 ## Mock
 
-Use MSW for mock testing. Write handlers to `src/mocks/handlers.ts`. MSW is loaded only when development mode. See `src/hooks.client.ts` and `src/hooks.server.ts`
+Use MSW for mock testing. Write handlers to `src/mocks/handlers.ts`. MSW is loaded only when development mode. See `src/hooks.client.ts` and `src/hooks.server.ts`.
+
+Create `.env` file in root dir and set two values: `ENABLE_MSW_SERVER, PUBLIC_ENABLE_MSW_CLIENT` as `true` if you want to use msw.
