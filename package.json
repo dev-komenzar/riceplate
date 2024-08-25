@@ -5,7 +5,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"lint": "eslint . --fix & stylelint --fix --ignore-path .gitignore --config .stylelintrc.yaml ./**/*.{css,svelte}",
+		"lint": "eslint --fix --config eslint.config.js . & stylelint --fix --ignore-path .gitignore --config .stylelintrc.yaml ./**/*.{css,svelte}",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
